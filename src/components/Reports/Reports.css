@@ -1,0 +1,124 @@
+.reports-main {
+    position: relative;
+    width: 1520px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 36px;
+    margin: 20px;
+}
+
+.reports-main h1 {
+    position: absolute;
+    color: inherit;
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+.reports-btn {
+    position: absolute;
+    right: 20px;
+    width: min-content;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.Reports-p-des{
+    margin-top:300px;
+}
+.FaRegBookmark {
+    height: 20px;
+    width: 20px;
+}
+
+.Reports-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid #707070;
+    height: 700px;
+    width: 1490px;
+    margin-left: 10px;
+    border-radius: 36px;
+}
+
+.Reports-hr-line {
+    position: absolute;
+    height: 1px;
+    background-color: black;
+    align-self: flex-start;
+    margin-top: 80px;
+    width: 95%;
+}
+
+.Reports-title {
+    align-self: flex-start;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-weight: bold;
+}
+
+
+.Reports-box-p {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    align-self: center;
+    top: 15%;
+    left: 60px;
+    height: 60px;
+    font-size: 30px;
+}
+.Reports-box-btn-verify{
+    position: absolute;
+    height:50px;
+    width:100px;
+    background-color: #11FF11;
+    border-radius: 36px;
+    bottom: 18px;
+    right: 30px;
+}
+.Reports-p {
+    position: relative;
+    word-break: break-all;
+    margin: 20px 0;
+}
+.Reports-main{
+    margin-top: -120px;
+    height:fit-content;
+    margin-left: 300px;
+}
+@media screen and (max-width:1000px) {
+    .reports-main {
+        max-width: 365px;
+        margin-left:0px;
+    }
+    .Reports-main {
+        max-width: 365px;
+        margin-left: 117px
+    }
+    .Reports-box-p{
+        left: 20px;
+    }
+.reports-main h1{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.Reports-title{
+    left:10px;
+}
+    .Reports-search-input {
+        max-width: 380px;
+    }
+
+    .Reports-box-container {
+        max-width: 375px;
+        margin-left: 1px;
+    }
+}
